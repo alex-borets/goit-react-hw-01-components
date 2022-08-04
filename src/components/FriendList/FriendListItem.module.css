@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  height: 75px;
+
+  border-radius: 4px;
+  background-color: rgba(211, 211, 211, 0.397);
+  border: 1px solid #2c2c2c15;
+  box-shadow: rgba(66, 67, 68, 0.3) 0px 1px 1px 0px;
+}
+
+.status {
+  margin-right: 10px;
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 7.5px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  margin: 0;
+}
